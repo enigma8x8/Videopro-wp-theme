@@ -2,6 +2,52 @@
 
 Custom WordPress theme for VideoProjects website with WooCommerce and ACF support.
 
+
+# VideoProjects — Custom WooCommerce Theme
+
+**Role:** WordPress/WooCommerce Developer  
+**Stack:** WordPress, WooCommerce, PHP, HTML/CSS, JavaScript, ACF, Bootstrap 5  
+
+---
+
+## Project Goal
+The client needed a **custom WordPress theme** for a media-oriented business with an integrated online shop and content blocks managed through ACF. The goal was to combine a product catalog, services, and media presentation in one website.
+
+---
+
+## My Contribution
+- Customized a WordPress theme with WooCommerce integration.  
+- Implemented ACF fields for dynamic content sections (hero, services, FAQ, news).  
+- Built responsive layouts with Bootstrap 5 for mobile-first design.  
+- Styled WooCommerce templates (shop, cart, checkout) to match the brand.  
+- Ensured cross-browser compatibility (Chrome, Firefox, Safari, Edge, IE11).  
+
+---
+
+## Challenges & Solutions
+- **Challenge:** Needed to make a highly flexible home page with multiple custom blocks.  
+  **Solution:** Created modular ACF groups (`hero`, `services`, `FAQ`, etc.) and synced them via JSON for easy reuse and migration.  
+
+---
+
+## Results
+- Delivered a **custom WordPress theme** tailored to the client’s needs.  
+- Client can now manage all homepage sections via the WordPress admin without touching code.  
+- The website supports full **e-commerce functionality** with WooCommerce.  
+
+---
+
+## Notes
+- My focus was on **frontend development and theme customization**.  
+- Additional plugin integrations (forms, payments) were handled by other team members.  
+
+---
+
+
+
+# Developer Documentation
+
+
 ## Features
 
 - **WordPress 6.0+ Compatible**
