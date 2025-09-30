@@ -1,9 +1,6 @@
-# VideoProjects WordPress Theme
+# VideoProjects — Custom WooCommerce Theme
 
 Custom WordPress theme for VideoProjects website with WooCommerce and ACF support.
-
-
-# VideoProjects — Custom WooCommerce Theme
 
 **Role:** WordPress/WooCommerce Developer  
 **Stack:** WordPress, WooCommerce, PHP, HTML/CSS, JavaScript, ACF, Bootstrap 5  
