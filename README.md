@@ -147,11 +147,3 @@ npm install
 # Compile SCSS
 sass assets/css/style.scss assets/css/style.css
 ```
-
-## Support
-
-For theme support and customization, contact the development team.
-
-## License
-
-This theme is proprietary and confidential. All rights reserved.
