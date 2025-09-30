@@ -1,0 +1,38 @@
+.related-posts {
+    padding: 70px 0 100px 0;
+    margin: 65px 0 -95px 0;
+    background-color: #E5EBFF;
+
+    .section-heading {
+        margin: 0 0 58px 0;
+        font-size: 25px; 
+
+        @media screen {
+            @media (max-width: 1199px) {
+                margin: 0 0 30px 0;
+            }
+        }
+    }
+
+    .posts-swiper {
+        @media screen {
+            @media (max-width: 639px) {
+                width: calc(100% + 40px);
+                margin-left: -20px;
+
+                .swiper {
+                    padding-right: 20px;
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+
+    .swiper-nav {
+        @media screen {
+            @media (max-width: 639px) {
+                display: none;
+            }
+        }
+    }
+}

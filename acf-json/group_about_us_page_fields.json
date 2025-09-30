@@ -1,0 +1,599 @@
+{
+    "key": "group_about_us_page_fields",
+    "title": "Par mums lapas lauki",
+    "fields": [
+        {
+            "key": "field_about_us_page_header",
+            "label": "Lapas galvene",
+            "name": "page_header",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "Galvenes sekcijas iestatījumi",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_about_us_page_title",
+                    "label": "Lapas virsraksts",
+                    "name": "title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Galvenais virsraksts lapas galvenē",
+                    "required": 1,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Par mums",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_about_us_page_subtitle",
+                    "label": "Apakšvirsraksts",
+                    "name": "subtitle",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "Apakšvirsraksta teksts zem galvenā virsraksta",
+                    "required": 1,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Videoprojekts Baltija ir mūsdienīgo drošības sistēmu un risinājumu kompānija, kas dibināta 2010.gadā un ieņem stabilu vietu tirgū pateicoties personiskai attieksmei pret klientu, profesionalitātei, elastībai un augstām prasībām pret iekšējiem kvalitātes standartiem, kā arī klienta vēlmēm.",
+                    "new_lines": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "rows": ""
+                },
+                {
+                    "key": "field_about_us_page_background_video",
+                    "label": "Fona video",
+                    "name": "background_video",
+                    "aria-label": "",
+                    "type": "file",
+                    "instructions": "Video fails, kas tiks izmantots kā fons galvenes sekcijā",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "mp4"
+                }
+            ]
+        },
+        {
+            "key": "field_about_us_main_content",
+            "label": "Galvenais saturs",
+            "name": "main_content",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "Galvenā satura sekcijas iestatījumi",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_about_us_description",
+                    "label": "Apraksts",
+                    "name": "description",
+                    "aria-label": "",
+                    "type": "wysiwyg",
+                    "instructions": "Galvenais apraksts par uzņēmumu",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Mūsu pamata princips ikdienas darbā ir tāds, lai katrs mūsu klients būtu apmierināts ar saņemto pakalpojumu. Ņemot vērā to, ka Videoprojekts Baltija ir ģimenes uzņēmums, esam personīgi ieinteresēti, lai mūsu klienti ir priecīgi un iesaka mūs saviem sadarbības partneriem, draugiem un jebkuram, kam interesē pakalpojumi, ko nodrošinām. Pateicoties mūsu atsaucībai un atbildīgajai attieksmei pret darbu, varam lepoties ar apjomīgu klientu loku, kas par mums var teikt tikai labāko.",
+                    "tabs": "visual",
+                    "toolbar": "basic",
+                    "media_upload": 0,
+                    "delay": 0
+                },
+                {
+                    "key": "field_about_us_key_facts_title",
+                    "label": "Atslēgas fakti virsraksts",
+                    "name": "key_facts_title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Virsraksts atslēgas faktiem",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Atslēgas fakti par uzņēmumu:",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_about_us_key_facts",
+                    "label": "Atslēgas fakti",
+                    "name": "key_facts",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "Atslēgas fakti par uzņēmumu",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "min": 0,
+                    "max": 0,
+                    "rows_per_page": 20,
+                    "button_label": "Pievienot faktus",
+                    "collapsed": "",
+                    "sub_fields": [
+                        {
+                            "key": "field_key_fact_text",
+                            "label": "Fakta teksts",
+                            "name": "text",
+                            "aria-label": "",
+                            "type": "wysiwyg",
+                            "instructions": "Fakta teksts",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "tabs": "visual",
+                            "toolbar": "basic",
+                            "media_upload": 0,
+                            "default_value": "",
+                            "delay": 0,
+                            "parent_repeater": "field_about_us_key_facts"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_about_us_certificates",
+            "label": "Sertifikātu sekcija",
+            "name": "certificates",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "Sertifikātu sekcijas iestatījumi",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_certificates_title",
+                    "label": "Sertifikātu virsraksts",
+                    "name": "title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Virsraksts sertifikātu sekcijai",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Sertifikāti",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_certificates_list",
+                    "label": "Sertifikātu saraksts",
+                    "name": "certificates_list",
+                    "aria-label": "",
+                    "type": "gallery",
+                    "instructions": "Sertifikātu attēli",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "insert": "append",
+                    "min": 0,
+                    "max": 0,
+                    "min_width": 0,
+                    "min_height": 0,
+                    "min_size": 0,
+                    "max_width": 0,
+                    "max_height": 0,
+                    "max_size": 0,
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_about_us_sidebar",
+            "label": "Sānjosla",
+            "name": "sidebar",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "Sānjoslas iestatījumi",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_sidebar_order_form_title",
+                    "label": "Formas virsraksts",
+                    "name": "order_form_title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Virsraksts formas sekcijai",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Ātri un ērti piesakiet pakalpojumu",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_sidebar_services_title",
+                    "label": "Pakalpojumu virsraksts",
+                    "name": "services_title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Virsraksts pakalpojumu sekcijai",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Pakalpojumi",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                }
+            ]
+        },
+        {
+            "key": "field_about_us_reviews",
+            "label": "Atsauksmju sekcija",
+            "name": "reviews",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "Atsauksmju sekcijas iestatījumi",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_reviews_title",
+                    "label": "Atsauksmju virsraksts",
+                    "name": "title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Virsraksts atsauksmju sekcijai",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Atsauksmes",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_reviews_list",
+                    "label": "Atsauksmju saraksts",
+                    "name": "reviews_list",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "Atsauksmju saraksts",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "min": 0,
+                    "max": 0,
+                    "rows_per_page": 20,
+                    "button_label": "Pievienot atsauksmi",
+                    "collapsed": "",
+                    "sub_fields": [
+                        {
+                            "key": "field_review_author_name",
+                            "label": "Autora vārds",
+                            "name": "author_name",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Atsauksmes autora vārds",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_reviews_list"
+                        },
+                        {
+                            "key": "field_review_author_position",
+                            "label": "Autora amats",
+                            "name": "author_position",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Atsauksmes autora amats",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_reviews_list"
+                        },
+                        {
+                            "key": "field_review_text",
+                            "label": "Atsauksmes teksts",
+                            "name": "text",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "Atsauksmes teksts",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "new_lines": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "rows": "",
+                            "parent_repeater": "field_reviews_list"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_about_us_team",
+            "label": "Komandas sekcija",
+            "name": "team",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "Komandas sekcijas iestatījumi",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_team_description",
+                    "label": "Apraksts",
+                    "name": "description",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "Apraksts komandas sekcijai",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Ja vēlaties uzzināt ko vairāk par produktiem un pakalpojumiem, tad droši zvaniet vai rakstiet.",
+                    "new_lines": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "rows": ""
+                },
+                {
+                    "key": "field_team_contact_link",
+                    "label": "Kontaktu saite",
+                    "name": "contact_link",
+                    "aria-label": "",
+                    "type": "link",
+                    "instructions": "Saite uz kontaktu lapu",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "allow_in_bindings": 0
+                },
+                {
+                    "key": "field_team_members",
+                    "label": "Komandas locekļi",
+                    "name": "team_members",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "Komandas locekļu saraksts",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "min": 0,
+                    "max": 0,
+                    "rows_per_page": 20,
+                    "button_label": "Pievienot komandas locekli",
+                    "collapsed": "",
+                    "sub_fields": [
+                        {
+                            "key": "field_team_member_photo",
+                            "label": "Fotogrāfija",
+                            "name": "photo",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "Komandas locekļa fotogrāfija",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": 0,
+                            "min_height": 0,
+                            "min_size": 0,
+                            "max_width": 0,
+                            "max_height": 0,
+                            "max_size": 0,
+                            "mime_types": "",
+                            "parent_repeater": "field_team_members"
+                        },
+                        {
+                            "key": "field_team_member_name",
+                            "label": "Vārds",
+                            "name": "name",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Komandas locekļa vārds",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_team_members"
+                        },
+                        {
+                            "key": "field_team_member_position",
+                            "label": "Amats",
+                            "name": "position",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Komandas locekļa amats",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_team_members"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "about-us-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "ACF lauki par mums lapas šablonam",
+    "show_in_rest": 0,
+    "modified": 1754659670
+}

@@ -1,0 +1,301 @@
+{
+  "key": "group_blog_post_fields",
+  "title": "Blog Post Fields",
+  "fields": [
+    {
+      "key": "field_page_header_background",
+      "label": "Page Header Background",
+      "name": "page_header_background",
+      "type": "image",
+      "instructions": "Background image for the page header",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "preview_size": "medium",
+      "library": "all",
+      "min_width": "",
+      "min_height": "",
+      "min_size": "",
+      "max_width": "",
+      "max_height": "",
+      "max_size": "",
+      "mime_types": ""
+    },
+    {
+      "key": "field_post_subtitle",
+      "label": "Post Subtitle",
+      "name": "post_subtitle",
+      "type": "text",
+      "instructions": "Subtitle that appears under the main title",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_post_video_file",
+      "label": "Post Video File",
+      "name": "post_video_file",
+      "type": "file",
+      "instructions": "Video file for the post",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "library": "all",
+      "min_size": "",
+      "max_size": "",
+      "mime_types": "mp4,webm,ogg"
+    },
+    {
+      "key": "field_post_video_image",
+      "label": "Post Video Image",
+      "name": "post_video_image",
+      "type": "image",
+      "instructions": "Background image for video section",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "preview_size": "medium",
+      "library": "all",
+      "min_width": "",
+      "min_height": "",
+      "min_size": "",
+      "max_width": "",
+      "max_height": "",
+      "max_size": "",
+      "mime_types": ""
+    },
+    {
+      "key": "field_post_video_title",
+      "label": "Post Video Title",
+      "name": "post_video_title",
+      "type": "text",
+      "instructions": "Title for the video section",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_post_video_author",
+      "label": "Post Video Author",
+      "name": "post_video_author",
+      "type": "text",
+      "instructions": "Author name for the video",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_post_video_description",
+      "label": "Post Video Description",
+      "name": "post_video_description",
+      "type": "textarea",
+      "instructions": "Description for the video",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "maxlength": "",
+      "rows": 3,
+      "new_lines": ""
+    },
+    {
+      "key": "field_post_gallery",
+      "label": "Post Gallery",
+      "name": "post_gallery",
+      "type": "gallery",
+      "instructions": "Gallery images for the post",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "preview_size": "medium",
+      "insert": "append",
+      "library": "all",
+      "min": "",
+      "max": "",
+      "min_width": "",
+      "min_height": "",
+      "min_size": "",
+      "max_width": "",
+      "max_height": "",
+      "max_size": "",
+      "mime_types": ""
+    },
+    {
+      "key": "field_contact_button",
+      "label": "Contact Button",
+      "name": "contact_button",
+      "type": "link",
+      "instructions": "Contact button in the footer",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array"
+    },
+    {
+      "key": "field_show_social_media",
+      "label": "Show Social Media",
+      "name": "show_social_media",
+      "type": "true_false",
+      "instructions": "Show social media sharing buttons",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "message": "",
+      "default_value": 0,
+      "ui": 1,
+      "ui_on_text": "",
+      "ui_off_text": ""
+    },
+    {
+      "key": "field_show_related_posts",
+      "label": "Show Related Posts",
+      "name": "show_related_posts",
+      "type": "true_false",
+      "instructions": "Show related posts section",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "message": "",
+      "default_value": 0,
+      "ui": 1,
+      "ui_on_text": "",
+      "ui_off_text": ""
+    },
+    {
+      "key": "field_related_posts_title",
+      "label": "Related Posts Title",
+      "name": "related_posts_title",
+      "type": "text",
+      "instructions": "Title for related posts section",
+      "required": 0,
+      "conditional_logic": [
+        [
+          {
+            "field": "field_show_related_posts",
+            "operator": "==",
+            "value": "1"
+          }
+        ]
+      ],
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_related_posts",
+      "label": "Related Posts",
+      "name": "related_posts",
+      "type": "post_object",
+      "instructions": "Manually select related posts",
+      "required": 0,
+      "conditional_logic": [
+        [
+          {
+            "field": "field_show_related_posts",
+            "operator": "==",
+            "value": "1"
+          }
+        ]
+      ],
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "post_type": ["post"],
+      "taxonomy": "",
+      "allow_null": 0,
+      "multiple": 1,
+      "return_format": "object",
+      "ui": 1
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "post"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "Custom fields for blog posts"
+}

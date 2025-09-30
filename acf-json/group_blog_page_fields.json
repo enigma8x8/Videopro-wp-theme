@@ -1,0 +1,147 @@
+{
+    "key": "group_blog_page_fields",
+    "title": "Blog lapas lauki",
+    "fields": [
+        {
+            "key": "field_blog_page_header",
+            "label": "Lapas galvene",
+            "name": "page_header",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "Galvenes sekcijas iestatījumi",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_blog_page_title",
+                    "label": "Lapas virsraksts",
+                    "name": "title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Galvenais virsraksts lapas galvenē",
+                    "required": 1,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Jaunumi",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_blog_page_subtitle",
+                    "label": "Apakšvirsraksts",
+                    "name": "subtitle",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "Apakšvirsraksta teksts zem galvenā virsraksta",
+                    "required": 1,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Sekojiet līdzi mūsu jaunumiem, lai uzzinātu par jaunākajiem risinājumiem drošības un pilsētvides infrastruktūras jomā, kā arī svarīgākajiem uzņēmuma jaunumiem un aktualitātēm.",
+                    "new_lines": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "rows": ""
+                }
+            ]
+        },
+        {
+            "key": "field_blog_posts_per_page",
+            "label": "Postu skaits uz lapu",
+            "name": "posts_per_page",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Cik postu attēlot uz vienu lapu",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 9,
+            "min": 1,
+            "max": 50,
+            "step": 1,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_blog_excerpt_length",
+            "label": "Ekscerpta garums",
+            "name": "excerpt_length",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Cik vārdu attēlot ekscerptā",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 20,
+            "min": 5,
+            "max": 100,
+            "step": 1,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_blog_show_pagination",
+            "label": "Rādīt pagināciju",
+            "name": "show_pagination",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Vai rādīt pagināciju",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Rādīt pagināciju",
+            "default_value": 1,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "blog-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "ACF lauki blog lapas šablonam",
+    "show_in_rest": 0,
+    "modified": 1754378832
+}

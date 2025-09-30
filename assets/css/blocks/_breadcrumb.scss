@@ -1,0 +1,37 @@
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+    flex-wrap: wrap;
+    padding: 25px 0 0 0;
+    margin: 0 0 15px 0;
+    line-height: 14px;
+    font-size: 14px;
+    color: #000;
+
+    @media screen {
+        @media (max-width: 768px) {
+            line-height: 1.5;
+        }
+    }
+
+    a {
+        color: #64707D;
+
+        &:hover {
+            color: #1F65E8;
+            text-decoration: none;
+        }
+    }
+
+    .separator {
+        width: 7px;
+        height: 10px;
+        background: url('../images/breadcrumb-sep-arrow.png') center center no-repeat;
+    }
+
+    .current {
+        color: #1F65E8;
+        text-decoration: underline;
+    }
+}

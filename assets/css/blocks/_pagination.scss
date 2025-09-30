@@ -1,0 +1,42 @@
+.pagination {
+    display: flex;
+    margin: 38px 0 0 0;
+
+    @media screen {
+        @media (max-width: 991px) {
+            justify-content: center;
+        }
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        .page-numbers {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 35px;
+            height: 35px;
+            padding: 0;
+            border: 0;
+            background-color: #191C24;
+            font-size: 15px;
+            font-weight: 500;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 0;
+
+            &.current, &:hover {
+                background: #1F65E8;
+                color: #fff;   
+            }
+
+            &.current {
+                pointer-events: none;
+                user-select: none;
+            }
+        }
+    }
+}

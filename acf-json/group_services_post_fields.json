@@ -1,0 +1,251 @@
+{
+  "key": "group_services_post_fields",
+  "title": "Pakalpojuma lauki",
+  "fields": [
+    {
+      "key": "field_service_short_description",
+      "label": "Īss apraksts",
+      "name": "service_short_description",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "Īss apraksts pakalpojuma kartītē",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "new_lines": "",
+      "maxlength": "",
+      "placeholder": "",
+      "rows": ""
+    },
+
+    {
+      "key": "field_service_external_link",
+      "label": "Ārējā saite",
+      "name": "service_external_link",
+      "aria-label": "",
+      "type": "url",
+      "instructions": "Ārējā saite (ja nav norādīta, tad tiek izmantota iekšējā saite uz pakalpojuma lapu)",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "placeholder": ""
+    },
+    {
+      "key": "field_service_description",
+      "label": "Pakalpojuma apraksts",
+      "name": "service_description",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "Galvenais apraksts pakalpojuma lapā",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "new_lines": "br",
+      "maxlength": "",
+      "placeholder": "",
+      "rows": 4
+    },
+    {
+      "key": "field_service_video_file",
+      "label": "Video fails",
+      "name": "service_video_file",
+      "aria-label": "",
+      "type": "file",
+      "instructions": "Augšupielādējiet video failu pakalpojuma lapā",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "library": "all",
+      "min_size": "",
+      "max_size": "",
+      "mime_types": "mp4,mov,avi,webm"
+    },
+    {
+      "key": "field_service_video_image",
+      "label": "Video fona attēls",
+      "name": "service_video_image",
+      "aria-label": "",
+      "type": "image",
+      "instructions": "Attēls video fona vietā",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "preview_size": "medium",
+      "library": "all",
+      "min_width": 0,
+      "min_height": 0,
+      "min_size": 0,
+      "max_width": 0,
+      "max_height": 0,
+      "max_size": 0,
+      "mime_types": ""
+    },
+    {
+      "key": "field_service_video_author",
+      "label": "Video autors",
+      "name": "service_video_author",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "Video autora vārds",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "maxlength": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": ""
+    },
+    {
+      "key": "field_service_video_description",
+      "label": "Video apraksts",
+      "name": "service_video_description",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "Īss video apraksts",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "maxlength": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": ""
+    },
+    {
+      "key": "field_service_solutions_title",
+      "label": "Risinājumu virsraksts",
+      "name": "service_solutions_title",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "Virsraksts risinājumu sarakstam",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "",
+      "maxlength": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": ""
+    },
+    {
+      "key": "field_service_solutions",
+      "label": "Risinājumu saraksts",
+      "name": "service_solutions",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "Pakalpojuma risinājumu saraksts",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "table",
+      "pagination": 0,
+      "button_label": "Pievienot risinājumu",
+      "collapsed": "",
+      "min": 0,
+      "max": 0,
+      "sub_fields": [
+        {
+          "key": "field_service_solution_title",
+          "label": "Risinājuma nosaukums",
+          "name": "title",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "",
+          "maxlength": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_service_solution_description",
+          "label": "Risinājuma apraksts",
+          "name": "description",
+          "aria-label": "",
+          "type": "textarea",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "",
+          "new_lines": "",
+          "maxlength": "",
+          "placeholder": "",
+          "rows": 3
+        }
+      ]
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "services"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "ACF lauki pakalpojumu post type",
+  "show_in_rest": 0,
+  "modified": 1754383632
+}

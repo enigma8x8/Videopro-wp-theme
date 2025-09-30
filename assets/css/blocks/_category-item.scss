@@ -1,0 +1,100 @@
+.category-item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #F5F4F4;
+    border-radius: 5px;
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .cat-name-holder {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0 30px;
+        padding: 12px 0;
+        margin: 0 0 20px 0;
+        border-bottom: 1px solid #DCDFE1;
+
+        .cat-name {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .amount {
+            color: #A0A4AA;
+            font-size: 10px;
+            white-space: nowrap;
+        }
+    }
+
+    .sub-categories {
+        display: flex;
+        align-items: flex-start;
+        gap: 0 30px;
+        margin: 0 0 12px 0;
+        font-size: 12px;
+
+        @media screen {
+            @media (max-width: 400px) {
+                flex-direction: column;
+                gap: 20px 0;
+
+                .cat-image { 
+                    order: 1;
+                    width: 100%;
+                }
+
+                ul {
+                    order: 2;
+                }
+            }
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 2px 0;
+            flex-grow: 1;
+
+            li {
+                a {
+                    color: #66696D;
+
+                    &:hover {
+                        color: #000;
+                    }
+                }
+            }
+        }
+
+        .cat-image {
+            display: flex;
+            justify-content: flex-end;
+            flex-shrink: 0;
+            width: 110px;
+
+            @media screen {
+                @media (max-width: 400px) {
+                    justify-content: center;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .view-all {
+        margin: auto 0 0 auto;
+        font-size: 12px;
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

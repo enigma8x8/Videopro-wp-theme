@@ -1,0 +1,578 @@
+{
+    "key": "group_contacts_page_fields",
+    "title": "Kontaktu lapas lauki",
+    "fields": [
+        {
+            "key": "field_contacts_page_header",
+            "label": "Lapas galvene",
+            "name": "page_header",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "Galvenes sekcijas iestatījumi",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_contacts_page_title",
+                    "label": "Lapas virsraksts",
+                    "name": "title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Galvenais virsraksts lapas galvenē",
+                    "required": 1,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Pieteikt pakalpojumu",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_contacts_page_subtitle",
+                    "label": "Apakšvirsraksts",
+                    "name": "subtitle",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "Apakšvirsraksta teksts zem galvenā virsraksta",
+                    "required": 1,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Aizpildiet pieteikuma anketu, lai saņemtu bezmaksas konsultāciju vai individuālu piedāvājumu.",
+                    "new_lines": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "rows": ""
+                }
+            ]
+        },
+        {
+            "key": "field_contacts_main_content",
+            "label": "Galvenais saturs",
+            "name": "main_content",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "Galvenā satura sekcijas iestatījumi",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_contacts_description",
+                    "label": "Apraksts",
+                    "name": "description",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "Apraksts par pakalpojumiem",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Mūsu speciālisti sazināsies ar jums tuvākajā laikā, lai precizētu jūsu vajadzības un atrastu piemērotāko risinājumu pilsētas drošībai, videonovērošanai, apsardzes sistēmām, datortehnikai vai citiem pakalpojumiem.",
+                    "new_lines": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "rows": ""
+                },
+                {
+                    "key": "field_contacts_persons",
+                    "label": "Kontaktpersonas",
+                    "name": "persons",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "Kontaktpersonu saraksts",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "min": 0,
+                    "max": 0,
+                    "rows_per_page": 20,
+                    "button_label": "Pievienot kontaktpersonu",
+                    "collapsed": "",
+                    "sub_fields": [
+                        {
+                            "key": "field_contact_person_photo",
+                            "label": "Fotogrāfija",
+                            "name": "photo",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "Kontaktpersonas fotogrāfija",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": 0,
+                            "min_height": 0,
+                            "min_size": 0,
+                            "max_width": 0,
+                            "max_height": 0,
+                            "max_size": 0,
+                            "mime_types": "",
+                            "parent_repeater": "field_contacts_persons"
+                        },
+                        {
+                            "key": "field_contact_person_name",
+                            "label": "Vārds",
+                            "name": "name",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Kontaktpersonas vārds",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_contacts_persons"
+                        },
+                        {
+                            "key": "field_contact_person_position",
+                            "label": "Amats",
+                            "name": "position",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Kontaktpersonas amats",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_contacts_persons"
+                        },
+                        {
+                            "key": "field_contact_person_phone",
+                            "label": "Tālrunis",
+                            "name": "phone",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Kontaktpersonas tālrunis",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_contacts_persons"
+                        },
+                        {
+                            "key": "field_contact_person_email",
+                            "label": "E-pasts",
+                            "name": "email",
+                            "aria-label": "",
+                            "type": "email",
+                            "instructions": "Kontaktpersonas e-pasts",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_contacts_persons"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_contacts_map",
+            "label": "Kartes sekcija",
+            "name": "map",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "Kartes sekcijas iestatījumi",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_map_title",
+                    "label": "Kartes virsraksts",
+                    "name": "title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Virsraksts kartes sekcijai",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Mūsu adrese: Elijas iela 17, Rīga, LV-1050",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_map_embed",
+                    "label": "Google Maps embed kods",
+                    "name": "embed_code",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "Google Maps iframe kods",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d4352.807216798732!2d24.12430704601309!3d56.94188602407257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eece29f850cacf%3A0x88a39e30b099daeb!2sElijas%20iela%2017%2C%20Latgales%20priek%C5%A1pils%C4%93ta%2C%20R%C4%ABga%2C%20LV-1050%2C%20Latvija!5e0!3m2!1slt!2slt!4v1753269430722!5m2!1slt!2slt\" width=\"600\" height=\"566\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+                    "new_lines": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "rows": ""
+                }
+            ]
+        },
+        {
+            "key": "field_contacts_sidebar",
+            "label": "Sānjosla",
+            "name": "sidebar",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "Sānjoslas iestatījumi",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_sidebar_form_title",
+                    "label": "Formas virsraksts",
+                    "name": "form_title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Virsraksts formas sekcijai",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Ātri un ērti piesakiet pakalpojumu",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_sidebar_services_options",
+                    "label": "Pakalpojumu opcijas",
+                    "name": "services_options",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "Pakalpojumu opcijas formas select laukam",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "min": 0,
+                    "max": 0,
+                    "rows_per_page": 20,
+                    "button_label": "Pievienot pakalpojumu",
+                    "collapsed": "",
+                    "sub_fields": [
+                        {
+                            "key": "field_service_option_value",
+                            "label": "Vērtība",
+                            "name": "value",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Pakalpojuma vērtība",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_sidebar_services_options"
+                        },
+                        {
+                            "key": "field_service_option_label",
+                            "label": "Nosaukums",
+                            "name": "label",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Pakalpojuma nosaukums",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_sidebar_services_options"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_sidebar_company_info",
+                    "label": "Uzņēmuma informācija",
+                    "name": "company_info",
+                    "aria-label": "",
+                    "type": "group",
+                    "instructions": "Uzņēmuma informācijas sekcijas iestatījumi",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_company_photo",
+                            "label": "Uzņēmuma foto",
+                            "name": "photo",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "Uzņēmuma foto attēls",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": 0,
+                            "min_height": 0,
+                            "min_size": 0,
+                            "max_width": 0,
+                            "max_height": 0,
+                            "max_size": 0,
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_company_name",
+                            "label": "Uzņēmuma nosaukums",
+                            "name": "name",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Uzņēmuma nosaukums",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "SIA Videoprojekts Baltija",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_company_reg_number",
+                            "label": "Reģistrācijas numurs",
+                            "name": "reg_number",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Uzņēmuma reģistrācijas numurs",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Reģ.Nr. LV40103322206",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_company_address",
+                            "label": "Adrese",
+                            "name": "address",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Uzņēmuma adrese",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Adrese: Lielā iela 22-8, Jelgava, LV-3001",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_company_office",
+                            "label": "Birojs",
+                            "name": "office",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Biroja adrese",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Birojs: Elijas iela 17, Rīga, LV-1050",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_company_account",
+                            "label": "Konta numurs",
+                            "name": "account",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Bankas konta numurs",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Konts: LV83HABA0551029226660",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_company_bank",
+                            "label": "Banka",
+                            "name": "bank",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Bankas nosaukums",
+                            "required": false,
+                            "conditional_logic": false,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Banka: AS Swedbank",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "contacts-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "ACF lauki kontaktu lapas šablonam",
+    "show_in_rest": 0,
+    "modified": 1754384186
+}

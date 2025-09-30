@@ -1,0 +1,700 @@
+{
+  "key": "group_home_page_fields",
+  "title": "Galvenās lapas lauki",
+  "fields": [
+    {
+      "key": "field_home_hero_title",
+      "label": "Galvenais virsraksts",
+      "name": "hero_title",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "Galvenais virsraksts hero sekcijā",
+      "required": 1,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "Videoprojekts Baltija SIA",
+      "maxlength": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": ""
+    },
+    {
+      "key": "field_home_user_photos",
+      "label": "Lietotāju fotogrāfijas",
+      "name": "user_photos",
+      "aria-label": "",
+      "type": "gallery",
+      "instructions": "Augšupielādējiet lietotāju/avataru fotogrāfijas, kas tiks attēlotas uzticības sekcijā",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "preview_size": "thumbnail",
+      "library": "all",
+      "insert": "append",
+      "min": 0,
+      "max": 0,
+      "min_width": 0,
+      "min_height": 0,
+      "min_size": 0,
+      "max_width": 0,
+      "max_height": 0,
+      "max_size": 0,
+      "mime_types": "jpg,jpeg,png,gif,webp"
+    },
+    {
+      "key": "field_home_hero_subtitle",
+      "label": "Apakšvirsraksts",
+      "name": "hero_subtitle",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "Apakšvirsraksta teksts zem galvenā virsraksta",
+      "required": 1,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "Licencēta pilna servisa videonovērošanas un drošības sistēmu kompānija",
+      "new_lines": "",
+      "maxlength": "",
+      "placeholder": "",
+      "rows": ""
+    },
+    {
+      "key": "field_home_trust_rating",
+      "label": "Uzticības reitinga sekcija",
+      "name": "trust_rating",
+      "aria-label": "",
+      "type": "group",
+      "instructions": "",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "sub_fields": [
+        {
+          "key": "field_trust_users_count",
+          "label": "Lietotāju skaits",
+          "name": "users_count",
+          "aria-label": "",
+          "type": "number",
+          "instructions": "",
+          "required": false,
+          "conditional_logic": false,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": 295,
+          "min": "",
+          "max": "",
+          "step": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_trust_companies_count",
+          "label": "Uzņēmumu skaits",
+          "name": "companies_count",
+          "aria-label": "",
+          "type": "number",
+          "instructions": "",
+          "required": false,
+          "conditional_logic": false,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": 400,
+          "min": "",
+          "max": "",
+          "step": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_trust_rating_score",
+          "label": "Reitinga vērtējums",
+          "name": "rating_score",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": false,
+          "conditional_logic": false,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "4.9",
+          "maxlength": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_trust_description",
+          "label": "Uzticības apraksts",
+          "name": "description",
+          "aria-label": "",
+          "type": "textarea",
+          "instructions": "",
+          "required": false,
+          "conditional_logic": false,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "Mums uzticas vairāk kā 400 uzņēmumu un pašvaldību visā Latvijas teritorijā",
+          "new_lines": "",
+          "maxlength": "",
+          "placeholder": "",
+          "rows": ""
+        }
+      ]
+    },
+    {
+      "key": "field_home_stars_image",
+      "label": "Zvaigžņu attēls",
+      "name": "stars_image",
+      "aria-label": "",
+      "type": "image",
+      "instructions": "Augšupielādējiet zvaigžņu reitinga attēlu",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "preview_size": "medium",
+      "library": "all",
+      "min_width": 0,
+      "min_height": 0,
+      "min_size": 0,
+      "max_width": 0,
+      "max_height": 0,
+      "max_size": 0,
+      "mime_types": "jpg,jpeg,png,gif,svg,webp"
+    },
+    {
+      "key": "field_home_hero_videos",
+      "label": "Hero video faili",
+      "name": "hero_videos",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "Video faili hero sekcijas galerijai",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "table",
+      "min": 0,
+      "max": 0,
+      "rows_per_page": 20,
+      "button_label": "Add Row",
+      "collapsed": "",
+      "sub_fields": [
+        {
+          "key": "field_hero_video_file",
+          "label": "Video fails",
+          "name": "video_file",
+          "aria-label": "",
+          "type": "file",
+          "instructions": "",
+          "required": false,
+          "conditional_logic": false,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "url",
+          "library": "all",
+          "mime_types": "mp4,webm,ogg",
+          "min_size": 0,
+          "max_size": 0,
+          "parent_repeater": "field_home_hero_videos"
+        },
+        {
+          "key": "field_hero_video_position",
+          "label": "Pozīcija",
+          "name": "position",
+          "aria-label": "",
+          "type": "select",
+          "instructions": "",
+          "required": false,
+          "conditional_logic": false,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "choices": {
+            "left": "Kreisā puse",
+            "right": "Labā puse"
+          },
+          "default_value": "left",
+          "multiple": 0,
+          "allow_null": 0,
+          "ui": 0,
+          "ajax": 0,
+          "placeholder": "",
+          "return_format": "value",
+          "create_options": 0,
+          "save_options": 0,
+          "parent_repeater": "field_home_hero_videos"
+        }
+      ]
+    },
+    {
+      "key": "field_home_brands_logos",
+      "label": "Zīmolu logotipi",
+      "name": "brands_logos",
+      "aria-label": "",
+      "type": "gallery",
+      "instructions": "Zīmolu logotipu sekcija",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "preview_size": "medium",
+      "library": "all",
+      "insert": "append",
+      "min": 0,
+      "max": 0,
+      "min_width": 0,
+      "min_height": 0,
+      "min_size": 0,
+      "max_width": 0,
+      "max_height": 0,
+      "max_size": 0,
+      "mime_types": ""
+    },
+    {
+      "key": "field_home_services_section",
+      "label": "Pakalpojumu sekcija",
+      "name": "services_section",
+      "aria-label": "",
+      "type": "group",
+      "instructions": "",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "sub_fields": [
+        {
+          "key": "field_services_title",
+          "label": "Sekcijas virsraksts",
+          "name": "title",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": false,
+          "conditional_logic": false,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "Mūsu paklpojumi",
+          "maxlength": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_services_description",
+          "label": "Sekcijas apraksts",
+          "name": "description",
+          "aria-label": "",
+          "type": "textarea",
+          "instructions": "",
+          "required": false,
+          "conditional_logic": false,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "Mūsu uzņēmums specializējas drošības sistēmu un kameru risinājumu nodrošināšanā, lai palīdzētu jebkuras nozares uzņēmējiem pasargāt savu īpašumu un datus.",
+          "new_lines": "",
+          "maxlength": "",
+          "placeholder": "",
+          "rows": ""
+        }
+      ]
+    },
+    {
+      "key": "field_home_news_section",
+      "label": "Jaunumu sekcija",
+      "name": "news_section",
+      "aria-label": "",
+      "type": "group",
+      "instructions": "",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "sub_fields": [
+        {
+          "key": "field_news_title",
+          "label": "Sekcijas virsraksts",
+          "name": "title",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": false,
+          "conditional_logic": false,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "Jaunumi",
+          "maxlength": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_news_posts",
+          "label": "Jaunumu raksti",
+          "name": "posts",
+          "aria-label": "",
+          "type": "relationship",
+          "instructions": "",
+          "required": false,
+          "conditional_logic": false,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "post_type": ["post"],
+          "max": 3,
+          "return_format": "object",
+          "taxonomy": [],
+          "min": 0,
+          "filters": ["search", "post_type", "taxonomy"],
+          "elements": [],
+          "bidirectional_target": []
+        },
+        {
+          "key": "field_6891a5bb6df6e",
+          "label": "More news link",
+          "name": "more_news_link",
+          "aria-label": "",
+          "type": "link",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array",
+          "allow_in_bindings": 0
+        }
+      ]
+    },
+    {
+      "key": "field_home_faq_section",
+      "label": "BUJ sekcija",
+      "name": "faq_section",
+      "aria-label": "",
+      "type": "group",
+      "instructions": "",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "sub_fields": [
+        {
+          "key": "field_faq_title",
+          "label": "Sekcijas virsraksts",
+          "name": "title",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": false,
+          "conditional_logic": false,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "Biežāk uzdotie jautājumi",
+          "maxlength": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_faq_items",
+          "label": "BUJ elementi",
+          "name": "faq_items",
+          "aria-label": "",
+          "type": "repeater",
+          "instructions": "",
+          "required": false,
+          "conditional_logic": false,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "layout": "table",
+          "min": 0,
+          "max": 0,
+          "rows_per_page": 20,
+          "button_label": "Add Row",
+          "collapsed": "",
+          "sub_fields": [
+            {
+              "key": "field_faq_question",
+              "label": "Jautājums",
+              "name": "question",
+              "aria-label": "",
+              "type": "text",
+              "instructions": "",
+              "required": false,
+              "conditional_logic": false,
+              "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+              },
+              "default_value": "",
+              "maxlength": "",
+              "placeholder": "",
+              "prepend": "",
+              "append": "",
+              "parent_repeater": "field_faq_items"
+            },
+            {
+              "key": "field_faq_answer",
+              "label": "Atbilde",
+              "name": "answer",
+              "aria-label": "",
+              "type": "wysiwyg",
+              "instructions": "",
+              "required": false,
+              "conditional_logic": false,
+              "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+              },
+              "tabs": "visual",
+              "toolbar": "basic",
+              "media_upload": 0,
+              "default_value": "",
+              "delay": 0,
+              "parent_repeater": "field_faq_items"
+            }
+          ]
+        },
+        {
+          "key": "field_6891a7abcce8a",
+          "label": "Kontaktu poga",
+          "name": "contact_link",
+          "aria-label": "",
+          "type": "link",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array",
+          "allow_in_bindings": 0
+        }
+      ]
+    },
+    {
+      "key": "field_home_stats_section",
+      "label": "Statistikas sekcija",
+      "name": "stats_section",
+      "aria-label": "",
+      "type": "group",
+      "instructions": "",
+      "required": false,
+      "conditional_logic": false,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "sub_fields": [
+        {
+          "key": "field_stats_title",
+          "label": "Sekcijas virsraksts",
+          "name": "title",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": false,
+          "conditional_logic": false,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "Svarīgi fakti par mūsu uzņēmumu",
+          "maxlength": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_stats_background_video",
+          "label": "Fona video",
+          "name": "background_video",
+          "aria-label": "",
+          "type": "file",
+          "instructions": "Fona video statistikas sekcijai",
+          "required": false,
+          "conditional_logic": false,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array",
+          "library": "all",
+          "mime_types": "mp4,webm,ogg",
+          "min_size": 0,
+          "max_size": 0
+        },
+        {
+          "key": "field_stats_list",
+          "label": "Statistikas saraksts",
+          "name": "stats_list",
+          "aria-label": "",
+          "type": "repeater",
+          "instructions": "Pievienojiet statistikas elementus",
+          "required": false,
+          "conditional_logic": false,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "layout": "table",
+          "min": 0,
+          "max": 0,
+          "rows_per_page": 20,
+          "button_label": "Add Row",
+          "collapsed": "",
+          "sub_fields": [
+            {
+              "key": "field_stat_number",
+              "label": "Skaitlis",
+              "name": "number",
+              "aria-label": "",
+              "type": "text",
+              "instructions": "Statistikas skaitlis",
+              "required": false,
+              "conditional_logic": false,
+              "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+              },
+              "default_value": "",
+              "maxlength": "",
+              "placeholder": "",
+              "prepend": "",
+              "append": "",
+              "parent_repeater": "field_stats_list"
+            },
+            {
+              "key": "field_stat_text",
+              "label": "Teksts",
+              "name": "text",
+              "aria-label": "",
+              "type": "text",
+              "instructions": "Statistikas apraksts",
+              "required": false,
+              "conditional_logic": false,
+              "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+              },
+              "default_value": "",
+              "maxlength": "",
+              "placeholder": "",
+              "prepend": "",
+              "append": "",
+              "parent_repeater": "field_stats_list"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "front-page.php"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "ACF lauki galvenās lapas šablonam",
+  "show_in_rest": 0,
+  "modified": 1754572444
+}

@@ -1,0 +1,82 @@
+.reviews-swiper {
+    .block-heading {
+        margin: 0 0 50px 0;
+        line-height: normal;
+        font-size: 20px;
+
+        @media screen {
+            @media (max-width: 991px) {
+                margin: 0 0 30px 0;
+            }
+        }
+    }
+
+    .swiper-holder {
+        @media screen {
+            @media (max-width: 639px) {
+                width: calc(100% + 40px);
+                margin-left: -20px;
+                margin-right: -20px;
+
+                .swiper {
+                    padding-right: 20px;
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+
+    .review-item {
+        padding: 35px 30px;
+        background: #F3F1EB;
+        // box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+    
+        header {
+            display: flex;
+            flex-direction: column;
+            gap: 2px 0;
+            margin: 0 0 18px 0;
+            padding: 0 0 0 48px;
+            background: url('../images/review-icon.svg') left 3px no-repeat;
+            line-height: normal;
+
+            .author-name {
+                font-weight: 700;
+                font-size: 16px;
+            }
+
+            .author-position {
+                font-size: 15px;
+            }
+        }
+
+        .review-text {
+            line-height: 25px;
+            font-size: 15px;
+            font-weight: 400;
+            font-style: italic;
+
+            p {
+                &:first-child {
+                    margin: 0 0 15px 0;
+
+                    &::before {
+                        content: '"';
+                    }
+                }
+
+                &:last-child {
+                    margin: 0;
+
+                    &::after {
+                        content: '"';
+                    }
+                }
+            }
+        }
+    }
+
+    .swiper-pagination {
+        justify-content: center;
+    }
+}

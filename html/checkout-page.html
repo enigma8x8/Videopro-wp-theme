@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="lv">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+        <link href="assets/css/style.css?v=1" rel="stylesheet" />
+        <title>Video Projects</title>
+    </head>
+
+    <body>
+        <header id="masthead" class="site-header">
+            <div class="container">
+                <a href="#" class="site-logo">
+                    <img src="assets/images/logo.svg" alt="">
+                </a>
+
+                <nav id="site-navigation">
+                    <ul id="primary-menu-list"> 
+                        <li class="menu-item">
+                            <a href="#">E-veikals</a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#">Jaunumi</a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#">Pakalpojumi</a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#">Pieredze</a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#">Par mums</a>
+                        </li>
+                    </ul>
+
+                    <div class="mobile-view d-lg-none">
+                        <a href="#" class="btn btn-primary w-100">Pieteikt pakalpojumu</a>
+                    </div>
+                </nav>  
+
+                <div class="buttons d-flex align-items-center">
+                    <a href="tel:+37122525100" class="header-phone">
+                        <img src="assets/images/header-phone-icon.svg" alt="">
+                        <span>+371 22 525 100</span>
+                    </a>
+                    
+                    <a href="#" class="btn btn-primary">Pieteikt pakalpojumu</a>
+                </div>
+
+                <button type="button" class="menu-toggle">
+                    <i class="icon"></i>
+                </button>      
+            </div>
+        </header>      
+        
+        <main id="main" class="site-main" role="main"> 
+            <div class="container">
+                <nav class="breadcrumbs">
+                    <a href="#">Sākums</a> 
+                    <span class="separator"></span>  
+                    <a href="#">Kategorija</a> 
+                    <span class="separator"></span>  
+                    <span class="current">Atvērta sadaļa</span>
+                </nav>
+
+                <h1 class="page-title">Iepikumu grozs</h1>
+
+                <div class="checkout-container">
+                    <form action="#" method="post" class="checkout-form">
+                        <div class="woocommerce-billing-fields">
+                            <div class="radio-list">
+                                <div class="form-group">
+                                    <input type="radio" name="person-type" id="person-type-1" checked="">
+                                    <label for="person-type-1">Fiziska persona</label>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="radio" name="person-type" id="person-type-2" checked="">
+                                    <label for="person-type-2">Juridiska persona</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group required">
+                                        <label>Vārds</label>
+                                        <input type="text" name="name" class="input-text">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group required">
+                                        <label>Uzvārds</label>
+                                        <input type="text" name="name" class="input-text">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group required">
+                                        <label>Valsts</label>
+                                        <select name="country" placeholder="Latvija">
+                                            <option value="Latvija">Latvija</option>
+                                            <option value="Lietuva">Lietuva</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group required">
+                                        <label>Ielas nosaukums</label>
+                                        <input type="text" name="name" placeholder="Mājas numurs un ielas nosaukums" class="input-text">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group required">
+                                        <label>Pilsēta</label>
+                                        <input type="text" name="name" class="input-text">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group required">
+                                        <label>Pasta indekss</label>
+                                        <input type="text" name="name" class="input-text">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group required">
+                                        <label>Tālrunis</label>
+                                        <input type="text" name="name" class="input-text">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group required">
+                                        <label>E-pasta adrese</label>
+                                        <input type="email" name="name" class="input-text">
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label>Pasūtījuma piezīmes</label>
+                                        <textarea name="" class="input-text"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="woocommerce-checkout-review-order">
+                            <h2>Jūsu pasūtījums</h2>
+
+                            <div class="order-summary">
+                                <table class="order-summary-table">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2">Produkti</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td>Preces nosaukums šajā vietā</td>
+                                            <td>€325.00</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><strong>Summa</strong></td>
+                                            <td><strong>€325.00</strong></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td colspan="2">
+                                                <strong>Piegāde</strong>
+
+                                                <ul class="shipping-methods">
+                                                    <li>
+                                                        <input type="radio" name="shipping" id="shipping-1">
+                                                        <label for="shipping-1">
+                                                            <span>Omniva pakomāts €2.99</span>
+                                                            <img src="assets/images/shipping-omniva-logo.png" alt="">
+                                                        </label>
+
+                                                        <div class="option-box">
+                                                            <label>Pakomātu saraksts</label>
+
+                                                            <select name="country" placeholder="Izvēlieties pakomāta adresi">
+                                                                <option value="Option 1">Option 1</option>
+                                                                <option value="Option 2">Option 2</option>
+                                                            </select>
+                                                        </div>
+                                                    </li>
+
+                                                    <li>
+                                                        <input type="radio" name="shipping" id="shipping-2">
+                                                        <label for="shipping-2">
+                                                            <span>Venipak pakomāts €2.99</span>
+                                                            <img src="assets/images/shipping-venipak-logo.png" alt="">
+                                                        </label>
+
+                                                        <div class="option-box">
+                                                            <label>Pakomātu saraksts</label>
+
+                                                            <select name="country" placeholder="Izvēlieties pakomāta adresi">
+                                                                <option value="Option 1">Option 1</option>
+                                                                <option value="Option 2">Option 2</option>
+                                                            </select>
+                                                        </div>
+                                                    </li>
+
+                                                    <li>
+                                                        <input type="radio" name="shipping" id="shipping-3">
+                                                        <label for="shipping-3">
+                                                            <span>DPD paku skapis €2.99</span>
+                                                            <img src="assets/images/shipping-dpd-logo.png" alt="">
+                                                        </label>
+
+                                                        <div class="option-box">
+                                                            <label>Pakomātu saraksts</label>
+
+                                                            <select name="country" placeholder="Izvēlieties pakomāta adresi">
+                                                                <option value="Option 1">Option 1</option>
+                                                                <option value="Option 2">Option 2</option>
+                                                            </select>
+                                                        </div>
+                                                    </li>
+
+                                                    <li>
+                                                        <input type="radio" name="shipping" id="shipping-4">
+                                                        <label for="shipping-4">
+                                                            <span>Unisend pakomāts €2.99</span>
+                                                            <img src="assets/images/shipping-unised-logo.png" alt="">
+                                                        </label>
+
+                                                        <div class="option-box">
+                                                            <label>Pakomātu saraksts</label>
+
+                                                            <select name="country" placeholder="Izvēlieties pakomāta adresi">
+                                                                <option value="Option 1">Option 1</option>
+                                                                <option value="Option 2">Option 2</option>
+                                                            </select>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><strong>Kopā</strong></td>
+                                            <td><strong>€65.92 <span>(ieskaitot €11.44 PVN)</span></strong></td>
+                                        </tr>
+                                    </tbody>
+                                </table>                                    
+                            </div>
+
+                            <div class="woocomerce-payment-methods">
+                                <ul class="methods">
+                                    <li>
+                                        <input type="radio" name="payment" id="payment-1">
+                                        <label for="payment-1">Internetbanka</label>
+                                        
+                                        <div class="payment-box">
+                                            <div class="form-group required">
+                                                <label>Valsts</label>
+
+                                                <select name="country" placeholder="Latvija">
+                                                    <option value="Latvija">Latvija</option>
+                                                    <option value="Lietuva">Lietuva</option>
+                                                </select>
+
+                                                <div class="options">
+                                                    <div class="form-group">
+                                                        <input type="radio" name="bank" id="bank-1">
+                                                        <label for="bank-1">
+                                                            <img src="assets/images/payment-swedbank-logo.png" alt="">
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <input type="radio" name="bank" id="bank-2">
+                                                        <label for="bank-2">
+                                                            <img src="assets/images/payment-seb-logo.png" alt="">
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <input type="radio" name="bank" id="bank-3">
+                                                        <label for="bank-3">
+                                                            <img src="assets/images/payment-citadele-logo.png" alt="">
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <input type="radio" name="bank" id="bank-4">
+                                                        <label for="bank-4">
+                                                            <img src="assets/images/payment-luminor-logo.png" alt="">
+                                                        </label>
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <input type="radio" name="bank" id="bank-5">
+                                                        <label for="bank-5">
+                                                            <img src="assets/images/payment-revolut-logo.png" alt="">
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="">
+                                        <input type="radio" name="payment" id="payment-2">
+                                        <label for="payment-2">Bankas pārskaitījums</label>   
+                                    </li>
+
+                                    <li>
+                                        <input type="radio" name="payment" id="payment-3">
+                                        <label for="payment-3">Cits maksājuma veids</label> 
+                                    </li>
+
+                                    <li>
+                                        <input type="radio" name="payment" id="payment-4">
+                                        <label for="payment-4">Cits maksājuma veids 2 </label> 
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="submit-form">
+                                <div class="form-group">
+                                    <input type="checkbox" name="terms" id="checkbox-1">
+                                    <label for="checkbox-1">Piekrītu videoprojekts.lv <a href="#">iepirkšanās noteikumiem</a></label>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="checkbox" name="terms" id="checkbox-2">
+                                    <label for="checkbox-2">Piekrītu videoprojekts.lv <a href="#">privātuma politikai</a></label>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="checkbox" name="terms" id="checkbox-3">
+                                    <label for="checkbox-3">Piekrītu aktualitāšu saņemšanai no videoprojekts.lv</label>
+                                </div>
+
+                                <div class="order-btn">
+                                    <button type="submit" class="btn btn-primary">Maksāt</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        
+        <footer id="main-footer">    
+            <div class="footer-top">
+                <div class="container">
+                    <ul class="links d-flex">
+                        <li><a href="#">Privātuma politika</a></li>
+                        <li><a href="#">E-veikala lietošanas noteikumi</a></li>
+                    </ul>
+
+                    <div class="social-media">
+                        <span>Seko mums</span>
+
+                        <ul class="d-flex">
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/footer-yt-icon.svg" alt="">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/footer-fb-icon.svg" alt="">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/footer-ig-icon.svg" alt="">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/footer-linkedin-icon.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>                    
+                </div>
+            </div>
+
+            <div class="footer-content">
+                <div class="container">
+                    <div class="left-side">
+                        <div class="menu-col">
+                            <h4 class="widget-title">Pakalpojumi</h4>
+
+                            <ul class="menu">
+                                <li class="menu-item">
+                                    <a href="#">Pilsētu drošība</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#">Videonovērošana</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#">Apsardzes sistēmas</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#">Tīkli un optika</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#">Datori un iekārtas</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#">Industriālās sistēmas</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#">Led risinājumi</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#">Video filmēšana</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#">Programmatūra</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="menu-col">
+                            <h4 class="widget-title">Navigācija</h4>
+
+                            <ul class="menu">
+                                <li class="menu-item">
+                                    <a href="#">Galvenā</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#">Pakalpojumi</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#">Pieredze</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#">Par mums</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#">Aktualitātes</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#">E-veikals</a>
+                                </li>
+                            </ul> 
+                        </div>
+
+                        <div class="menu-col">
+                            <h4 class="widget-title">Atbalsts</h4>
+
+                            <ul class="menu">
+                                <li class="menu-item">
+                                    <a href="#">Kontakti</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#">Tehniskā palīdzība</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#">Sadarbības partneriem</a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="#">BUJ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="right-side">
+                        <div class="newsletter">
+                            <form action="#" method="post">
+                                <label>Pierakstīties jaunumiem</label>
+
+                                <div class="input-holder">
+                                    <input type="email" name="email" placeholder="E-pasta adrese" required>
+                                    <button type="submit" class="btn btn-primary">Pierakstīties</button>
+                                </div>
+
+                                <span class="confirm-text d-block">Pierakstot e-pastu, jūs piekrītat videoprojekts.lv <a href="#" target="_blank">privātuma politikai</a>.</span>
+                            </form>
+                        </div>
+
+                        <div class="footer-logos">
+                            <img src="assets/images/footer-logos/footer-logo-1.svg" alt="">
+                            <img src="assets/images/footer-logos/footer-logo-2.svg" alt="">
+                            <img src="assets/images/footer-logos/footer-logo-3.svg" alt="">
+                            <img src="assets/images/footer-logos/footer-logo-4.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <span class="copyrights">&copy; 2025 videoprojekts.lv Visas tiesības aizsargātas</span>
+
+                    <a href="#" class="made-by" target="_blank">
+                        <span>Izstrāde</span>
+                        <img src="assets/images/wpx-logo.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <div class="content-overlay"></div>
+
+        <!-- JS files -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/dist/js/bootstrap.bundle.js"></script> 
+        <script src="assets/js/swiper-bundle.min.js"></script> 
+        <script src="assets/js/bootstrap-select.min.js"></script>
+        <script src="assets/js/jquery.fancybox.min.js"></script> 
+        <script src="assets/js/functions.js?v=1"></script>        
+    </body>
+</html>

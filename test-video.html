@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="lv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Player Test</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1>Video Player Test</h1>
+
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="video-section mb-4">
+            <div
+              class="video-holder"
+              style="
+                background: url('https://picsum.photos/800/400') center center /
+                  cover no-repeat;
+              "
+            >
+              <video muted playsinline class="bg-video">
+                <source
+                  src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4"
+                  type="video/mp4"
+                />
+              </video>
+
+              <div class="details">
+                <button type="button" class="play-btn"></button>
+
+                <h3 class="title">Testa Video</h3>
+                <span class="author"
+                  >Videoprojekts eksperts: <strong>Testa Autors</strong></span
+                >
+                <p class="description m-0">
+                  Šis ir testa video, lai demonstrētu jauno Bootstrap videopleru
+                  ar informācijas overlay.
+                </p>
+              </div>
+            </div>
+
+            <div class="video-info mt-3">
+              <h3 class="video-title h5">Testa Video</h3>
+              <p class="video-author text-muted mb-2">
+                <small
+                  >Videoprojekts eksperts: <strong>Testa Autors</strong></small
+                >
+              </p>
+              <p class="video-description mb-0">
+                Šis ir testa video, lai demonstrētu jauno Bootstrap videopleru.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Video Informācija</h5>
+              <p class="card-text">
+                Šis ir tests jaunajam videopleram ar Bootstrap stiliem.
+              </p>
+              <ul class="list-unstyled">
+                <li>
+                  <i class="bi bi-check-circle text-success"></i> Responsive
+                  dizains
+                </li>
+                <li>
+                  <i class="bi bi-check-circle text-success"></i> Bootstrap
+                  stili
+                </li>
+                <li>
+                  <i class="bi bi-check-circle text-success"></i> Custom
+                  controls
+                </li>
+                <li>
+                  <i class="bi bi-check-circle text-success"></i> Mobile
+                  friendly
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/functions.js"></script>
+  </body>
+</html>

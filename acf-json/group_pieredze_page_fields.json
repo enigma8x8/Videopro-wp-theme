@@ -1,0 +1,108 @@
+{
+    "key": "group_pieredze_page_fields",
+    "title": "Pieredzes lapas lauki",
+    "fields": [
+        {
+            "key": "field_pieredze_page_header",
+            "label": "Lapas galvene",
+            "name": "page_header",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "Galvenes sekcijas iestatījumi",
+            "required": false,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_pieredze_page_title",
+                    "label": "Lapas virsraksts",
+                    "name": "title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Galvenais virsraksts lapas galvenē",
+                    "required": 1,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Mūsu pieredze",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_pieredze_page_subtitle",
+                    "label": "Apakšvirsraksts",
+                    "name": "subtitle",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "Apakšvirsraksta teksts zem galvenā virsraksta",
+                    "required": 1,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Mūsu uzņēmums ir veicis daudzus projektus dažādās nozarēs, sniedzot drošības sistēmu un kameru risinājumus, kas palīdzējuši mūsu klientiem pasargāt savu īpašumu un datus.",
+                    "new_lines": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "rows": ""
+                },
+                {
+                    "key": "field_pieredze_page_background",
+                    "label": "Fona attēls",
+                    "name": "background_image",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "Fona attēls lapas galvenei",
+                    "required": false,
+                    "conditional_logic": false,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": 0,
+                    "min_height": 0,
+                    "min_size": 0,
+                    "max_width": 0,
+                    "max_height": 0,
+                    "max_size": 0,
+                    "mime_types": ""
+                }
+            ]
+
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "pieredze-page.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "ACF lauki pieredzes lapas šablonam",
+    "show_in_rest": 0,
+    "modified": 1754378459
+}

@@ -1,0 +1,41 @@
+.quantity {
+    display: flex;
+    height: 50px;
+    width: 98px;
+    padding: 0;
+    border: 1px solid #A1B6CB;
+    border-radius: 0;
+
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 34px;
+        height: 100%;
+        padding: 0;
+        border: 0;
+        transition: all .3s ease-in-out;
+        
+        &.minus {
+            background: url('../images/quantity-minus-icon.svg') center center no-repeat;
+        }
+
+        &.plus {
+            background: url('../images/quantity-plus-icon.svg') center center no-repeat;
+        }
+    }
+
+    input {
+        flex-grow: 1;
+        width: 30px;
+        height: 100%;
+        border: 0;
+        background: #fff;
+        color: #1E1E29;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        border-radius: 0;
+    }
+}
